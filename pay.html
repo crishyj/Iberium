@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Iberium</title>
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/css/animate.css">
+    <link rel="stylesheet" href="asset/css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="asset/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="top-header container">
+
+            <nav class="navbar navbar-expand-lg ">
+                <a class="navbar-brand scrollto" href="index.html">
+                    <img src="asset/img/coming_logo.png" alt="">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                        </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html#pass">Iber-pass</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#pay">Iber-pay</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#audiece">Audience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#team">Team </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#about"> About us </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="customer.html"> Customer </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="investor.html"> Investors </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="iber_pay_process text-center" style="margin-top: -75px;">
+        <img src="asset/img/2.png" alt="">
+
+        <div class="iber_title1">
+            <div>
+                IBER Pay Process
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="footer_title">
+                        <a href="contact.html"> Contact us</a>
+                    </div>
+                    <div class="footer_list1">
+                        <a href="investor.html"> Investor</a>
+                    </div>
+                    <div class="footer_list1">
+                        <a href="customer.html">Customer</a>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="footer_title">
+                        <a href="index.html#about">About us</a>
+                    </div>
+                    <div class="footer_list">
+                        <a href="index.html#mission">Mission</a>
+                    </div>
+                    <div class="footer_list">
+                        <a href="index.html#vision"> Vision </a>
+                    </div>
+                    <div class="footer_list">
+                        <a href="index.html#value"> Value</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer_title">
+                        Subscribe
+                    </div>
+                    <div class="footer_sub">
+                        <div class="input-group footer_sub mt-3">
+                            <input type="text" class="form-control" placeholder="Your email" id="mail" name="email">
+                            <div class="input-group-append">
+                                <span class="input-group-text">SUBSCRIBE</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer_title">
+                        Get in touch
+                    </div>
+
+                    <div class="mt-2 footer_list2">
+                        <div class=""><i class="fas fa-map-marker-alt link_icons"></i></div>
+                        <div>111 NE 1st Street 8th floor #1022 Miami,FL 33132</div>
+                    </div>
+                    <div class="mt-2 footer_list2">
+                        <div class=""><i class="fas fa-envelope mr-2 link_icons"></i></div>
+                        <div>Contact@Iberium.io</div>
+                    </div>
+                    <div class="mt-2 footer_list2">
+                        <div class=""><i class="fas fa-phone-alt link_icons"></i></div>
+                        <div>+1 202-555-0191</div>
+                    </div>
+
+
+                    <div class="coming_social1 ">
+
+                        <span class="twit">
+                                <i class="fab fa-twitter"></i>
+                            </span>
+                        <span class="linkedin">
+                                <i class="fab fa-linkedin-in"></i>
+                            </span>
+                        <span class="pint">
+                                <i class="fas fa-location-arrow"></i>
+                            </span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-5">
+                Cookies policy | Privacy Policy | Term and conditions
+            </div>
+
+        </div>
+    </footer>
+    <div class="footer_bottom">
+        &copy;Copyright 2019 Iberium.io All Rights Reserve.
+    </div>
+    <script src="asset/js/jquery.min.js"></script>
+    <script src="asset/js/popper.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 100) {
+                    $('.back-to-top').fadeIn('slow');
+                    $('#header').addClass('header-fixed');
+                } else {
+                    $('.back-to-top').fadeOut('slow');
+                    $('#header').removeClass('header-fixed');
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>
